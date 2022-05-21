@@ -7,6 +7,9 @@ A simlpe wrap around vim-obsession to save and load sessions
 Install this plugin using (Vundle example):
 `Plugin 'joao-vitor-sr/nvimSessionManager'`
 
+it's possible to auto-save the sessions using the [tpope/vim-obsession](https://github.com/tpope/vim-obsession) plugin
+just activate the plugin using the `:Obsession` command
+
 ## Configuration
 
 `let g:session_dir = '~/.config/nvim/sessions'` _path for the sessions folder_
